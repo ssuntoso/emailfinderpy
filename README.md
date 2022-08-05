@@ -19,6 +19,7 @@ print(em.verify_multiple_email(['s.suntoso@gmail.com', 'ssuntoso@gmail.com'], 'S
 #0  Sean  s.suntoso@gmail.com  Veified
 #1  Sean   ssuntoso@gmail.com  Veified
 
+# email_finder(first_name, middle_name, last_name, domain)
 print(em.email_finder('Sean', '', 'Suntoso', 'gmail.com'))
 #            Name                Email   Status
 #0  sean  suntoso   ssuntoso@gmail.com  Veified
