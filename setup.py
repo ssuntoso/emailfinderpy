@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.1'
+VERSION = '1.0.0'
 DESCRIPTION = 'Find and verify work emails.'
 
 # Setting up
@@ -18,12 +18,12 @@ setup(
     author_email="<contact@ssuntoso.com>",
     description=DESCRIPTION,
     long_description=long_description,
-    long_description_content_type='text/markdown'
+    long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=['numpy', 'pandas', 'dnspython'],
     keywords=['python', 'email', 'email finder', 'work email', 'company domain', 'start up'],
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",
