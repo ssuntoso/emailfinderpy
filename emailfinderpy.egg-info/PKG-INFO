@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: emailfinderpy
+Version: 0.0.1
+Summary: Find and verify work emails.
+Home-page: UNKNOWN
+Author: Sean Michael Suntoso
+Author-email: <contact@ssuntoso.com>
+License: UNKNOWN
+Keywords: python,email,email finder,work email,company domain,start up
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+UNKNOWN
+
