@@ -1,14 +1,14 @@
 Metadata-Version: 2.1
 Name: emailfinderpy
-Version: 1.0.0
+Version: 1.0.1
 Summary: Find and verify work emails.
-Home-page: UNKNOWN
+Home-page: https://github.com/ssuntoso/emailfinderpy
 Author: Sean Michael Suntoso
 Author-email: <contact@ssuntoso.com>
 License: UNKNOWN
 Keywords: python,email,email finder,work email,company domain,start up
 Platform: UNKNOWN
-Classifier: Development Status :: 4 - Beta
+Classifier: Development Status :: 5 - Production/Stable
 Classifier: Intended Audience :: Developers
 Classifier: Programming Language :: Python :: 3
 Classifier: Operating System :: Unix
@@ -39,6 +39,7 @@ print(em.verify_multiple_email(['s.suntoso@gmail.com', 'ssuntoso@gmail.com'], 'S
 #0  Sean  s.suntoso@gmail.com  Veified
 #1  Sean   ssuntoso@gmail.com  Veified
 
+# email_finder(first_name, middle_name, last_name, domain)
 print(em.email_finder('Sean', '', 'Suntoso', 'gmail.com'))
 #            Name                Email   Status
 #0  sean  suntoso   ssuntoso@gmail.com  Veified
